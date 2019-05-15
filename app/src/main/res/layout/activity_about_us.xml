@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBGL"
+    android:orientation="vertical"
+    tools:context="com.laisontech.laisondownloader.ui.activity.common.AboutUsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/background" />
+
+    <com.laisontech.laisondownloader.customeview.TouchLinearLayout
+        android:id="@+id/function_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_white_selector"
+        app:centerText="@string/CompanyProfile"
+        app:leftIcon="@drawable/function_icon" />
+
+    <View style="@style/ViewBaseStyle" />
+
+    <com.laisontech.laisondownloader.customeview.TouchLinearLayout
+        android:id="@+id/tel_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white_selector"
+        app:centerText="@string/phone_number"
+        app:leftIcon="@drawable/phone_icon"
+        app:numText="@string/CompanyTelphone" />
+
+    <View style="@style/ViewBaseStyle" />
+
+    <com.laisontech.laisondownloader.customeview.TouchLinearLayout
+        android:id="@+id/email_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white_selector"
+        app:centerText="@string/Email"
+        app:leftIcon="@drawable/email_icon"
+        app:numText="@string/CompanyEmail" />
+
+    <com.laisontech.laisondownloader.customeview.TouchLinearLayout
+        android:id="@+id/website_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_white_selector"
+        app:centerText="@string/CompanyWebsite"
+        app:leftIcon="@drawable/website_icon" />
+
+</LinearLayout>

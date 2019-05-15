@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D84ED</color>
+    <color name="colorPrimaryLight">#991D84ED</color>
+    <color name="colorPrimaryDark">#14619D</color>
+    <color name="colorAccent">#1D84ED</color>
+    <color name="white">#ffff</color>
+    <color name="nodownloading">#401D84ED</color>
+    <color name="colorBGL">#EBEBEB</color>
+    <color name="colorNoNet">#FFDADA</color>
+    <color name="colorError">#DB3E3E</color>
+    <color name="colorLightGray">#ccc</color>
+    <color name="colorGray">#8a8a8a</color>
+    <color name="transparent2">#90323232</color>
+    <color name="color_Back">#ddd</color>
+    <color name="etHintColor">#8a8a8a</color>
+    <color name="actionBarTitleContent">#14619D</color>
+    <color name="transparent">#0000</color><!-- 透明 -->
+    <color name="colorBlue">#1A81D2</color>
+    <color name="colorSearchBG">#15323232</color>
+    <color name="color_search">#F2F2F2</color>
+    <color name="color_nav">#F8F8F8</color>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="TaskTitleView">
+        <attr name="centEventText" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="DownloadProgressBar">
+        <attr name="download_progress_text_size" format="dimension" />
+
+        <attr name="download_progress_text_color" format="color" />
+
+        <attr name="download_progress_bar_color" format="color" />
+
+        <attr name="download_progress_min_height" format="dimension" />
+
+        <attr name="download_progress_min_width" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TouchLinearLayout">
+        <attr name="leftIcon" format="reference" />
+        <attr name="centerText" format="string" />
+        <attr name="numText" format="string" />
+    </declare-styleable>
+
+    <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+
+        <item name="android:indeterminateDrawable">@null</item>
+
+        <item name="android:minHeight">2dp</item>
+
+        <item name="android:maxHeight">2dp</item>
+    </style>
+
+    <declare-styleable name="FlexibleSearchView">
+        <attr name="flexible_search_view_status" format="enum">
+            <enum name="status_open" value="0" />
+            <enum name="status_close" value="1" />
+        </attr>
+        <attr name="flexible_search_view_position" format="enum">
+            <enum name="position_left" value="0" />
+            <enum name="position_right" value="1" />
+        </attr>
+        <attr name="flexible_search_view_icon" format="reference" />
+        <attr name="flexible_search_view_color" format="color|reference" />
+        <attr name="flexible_search_view_text" format="string|reference" />
+        <attr name="flexible_search_view_duration" format="integer" />
+        <attr name="flexible_search_view_text_color" format="color|reference" />
+        <attr name="flexible_search_view_text_size" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBarWidthNumber">
+
+        <attr name="radius" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressBarWithNumber">
+
+        <attr name="num_progress_unreached_color" format="color" />
+
+        <attr name="num_progress_reached_color" format="color" />
+
+        <attr name="num_progress_reached_bar_height" format="dimension" />
+
+        <attr name="num_progress_unreached_bar_height" format="dimension" />
+
+        <attr name="num_progress_text_size" format="dimension" />
+
+        <attr name="num_progress_text_color" format="color" />
+
+        <attr name="num_progress_text_offset" format="dimension" />
+
+
+        <attr name="num_progress_text_visibility" format="enum">
+
+            <enum name="visible" value="0" />
+
+            <enum name="invisible" value="1" />
+
+        </attr>
+
+    </declare-styleable>
+</resources>
