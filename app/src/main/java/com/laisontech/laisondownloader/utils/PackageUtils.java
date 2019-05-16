@@ -202,10 +202,7 @@ public class PackageUtils {
      * 获取应用程序名称
      */
     public static String getAppName() {
-        PackageInfo packageInfo = getPackageInfo();
-        if (packageInfo == null) return "";
-        int labelRes = packageInfo.applicationInfo.labelRes;
-        return GlobalData.getInstance().getRes(labelRes);
+        return getAppName(getPackageName());
     }
 
     /*
@@ -214,8 +211,8 @@ public class PackageUtils {
     public static String getAppName(String packname) {
         PackageInfo packageInfo = getPackageInfo(packname);
         if (packageInfo == null) return "";
-        int labelRes = packageInfo.applicationInfo.labelRes;
-        return GlobalData.getInstance().getRes(labelRes);
+        ApplicationInfo applicationInfo = packageInfo.applicationInfo;
+        return applicationInfo.loadLabel(getPM()).toString();
     }
 
     /*
